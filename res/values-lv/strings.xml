@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather M8</string>
+
+    <string name="app_translation_locale">lv</string>
+    <string name="app_translation_author">Edgars Eduards Hoveckis</string>
+
+    <!-- Common strings -->
+    <string name="app_language">Valoda</string>
+    <string name="wait">Lūdzu gaidiet…</string>
+    <string name="downloading">Lejupielādē…</string>
+    <string name="download_failed">Lejupielāde neizdevās. Mēģiniet vēlāk vēl</string>
+    <string name="download_succeeded">Lejupielāde pabeigta</string>
+    <string name="restart_to_apply">Jums jārestartē aplikācija, lai piemērotu izmaiņas</string>
+
+    <!-- City manager -->
+    <string name="city_manager_drag_swipe_tip">Padoms: Pieturiet, lai vilktu, velciet pa kreisi, lai dzēstu</string>
+    <string name="city_manager_locating">Iegūst pašreizējo lokāciju…</string>
+    <string name="city_manager_locating_no_permission">Lokācijas atļauja nav piešķirta, nevar iegūt jūsu lokāciju</string>
+
+    <!-- Main menu (Not used) -->
+    <string name="menu_item_sun_info" translatable="false">@string/sun_info_title</string>
+    <string name="menu_item_moon_info" translatable="false">@string/moon_info_title</string>
+    <string name="menu_item_widgets" translatable="false">@string/prefs_widgets_title</string>
+    <string name="menu_item_settings" translatable="false">@string/settings_menu_title</string>
+
+    <!-- Location manager -->
+    <string name="location_manager_title">Lokācijas</string>
+    <string name="location_manager_search_hint">Ievadiet pilsētu šeit</string>
+
+    <!-- Weather details -->
+    <string name="weather_details_title">Detaļas</string>
+    <string name="weather_details_feelslike">Sajūta kā</string>
+    <string name="weather_details_humidity">Mitrums</string>
+    <string name="weather_details_wind">Vējš</string>
+    <string name="weather_details_dewpoint">Rasas punkts</string>
+    <string name="weather_details_pressure">Spiediens</string>
+    <string name="weather_details_precip">Nokrišņi</string>
+    <string name="weather_details_visibility">Redzamība</string>
+    <string name="weather_details_uvindex">UV indekss</string>
+    <string name="weather_details_kpindex" translatable="false">@string/forecast_kpindex_title</string>
+    <string name="weather_details_timezone">Laika zona</string>
+    <string name="weather_details_daylight_hours">Dienasgaismas stundas</string>
+
+    <!-- Hourly -->
+    <string name="forecast_hourly_title">Stundas prognoze</string>
+
+    <!-- Daily -->
+    <string name="forecast_daily_title">Dienas prognoze</string>
+
+    <!-- Radar view -->
+    <string name="radar_view_title">Nokrišņu karte</string>
+    <string name="radar_view_legend_overcast">Apmācies</string>
+    <string name="radar_view_legend_drizzle">Smidzina</string>
+    <string name="radar_view_legend_light_rain">Viegls lietus</string>
+    <string name="radar_view_legend_moderate_rain">Mērens lietus</string>
+    <string name="radar_view_legend_heavy_rain">Stiprs lietus</string>
+    <string name="radar_view_legend_hail">Krusa</string>
+    <string name="radar_view_legend_light_snow">Viegls sniegs</string>
+    <string name="radar_view_legend_medium_snow">Mērens sniegs</string>
+    <string name="radar_view_legend_heavy_snow">Stiprs sniegs</string>
+
+    <!-- AQI -->
+    <string name="aqi_title">Gaisa Kvalitāte</string>
+    <string name="aqi_pm2_5" translatable="false">PM2.5</string>
+    <string name="aqi_so2" translatable="false">SO₂</string>
+    <string name="aqi_pm10" translatable="false">PM10</string>
+    <string name="aqi_no2" translatable="false">NO₂</string>
+    <string name="aqi_co" translatable="false">CO</string>
+    <string name="aqi_o3" translatable="false">O³</string>
+    <string name="aqi_small_text" translatable="false">AQI %s %s</string>
+    <string name="aqi_summary_1">Labs</string>
+    <string name="aqi_summary_2">Apmierinošs</string>
+    <string name="aqi_summary_3">Neveselīgs jutīgām grupām</string>
+    <string name="aqi_summary_4">Neveselīgs</string>
+    <string name="aqi_summary_5">Ļoti neveselīgs</string>
+    <string name="aqi_summary_6">Bīstams</string>
+
+    <!-- Kp-Index -->
+    <string name="forecast_kpindex_title">Kp-Indekss</string>
+    <string name="forecast_kpindex_gm1">Neliela Ģeomagnētiskā Vētra</string>
+    <string name="forecast_kpindex_gm2">Mērena Ģeomagnētiskā Vētra</string>
+    <string name="forecast_kpindex_gm3">Spēcīga Ģeomagnētiskā Vētra</string>
+    <string name="forecast_kpindex_gm4">Stipra Ģeomagnētiskā Vētra</string>
+    <string name="forecast_kpindex_gm5">Ekstrēma Ģeomagnētiskā Vētra</string>
+
+    <!-- Sun and moon -->
+    <string name="sun_moon_title">Saule un Mēness</string>
+    <!-- Sun Info -->
+    <string name="sun_info_title">Saule</string>
+    <string name="sun_info_sunrise">Saullēkts</string>
+    <string name="sun_info_sunset">Saulriets</string>
+    <string name="sun_info_dawn">Rītausma</string>
+    <string name="sun_info_dusk">Krēsla</string>
+    <string name="sun_info_noon">Pusdienlaiks</string>
+    <string name="sun_info_nadir">Nadir</string>
+    <string name="sun_info_azimuth">Azimuth</string>
+    <string name="sun_info_height">Augstums</string>
+    <string name="sun_info_eclipse">Aptumsums</string>
+    <string name="sun_info_eclipse_type_total">Pilnīgs</string>
+    <string name="sun_info_eclipse_type_partial">Daļējs</string>
+    <string name="sun_info_eclipse_type_annular">Gredzenveida</string>
+
+    <!--string name="sun_info_sunrise_legend">Time when top edge of the Sun appears on the horizon</string>
+    <string name="sun_info_sunset_legend">Time when Sun disappears below the horizon, evening civil twilight starts</string>
+    <string name="sun_info_dawn_legend">Time when morning nautical twilight ends, morning civil twilight starts</string>
+    <string name="sun_info_dusk_legend">Time when evening nautical twilight starts</string>
+    <string name="sun_info_noon_legend">Solar noon. The Sun is in the highest position</string>
+    <string name="sun_info_nadir_legend">Darkest moment of the night, the Sun is in the lowest position</string>
+    <string name="sun_info_azimuth_legend">Defines the Sun\'s relative direction along the local horizon</string>
+    <string name="sun_info_height_legend">Sun altitude above the horizon in degrees, measured from North to East</string>
+    <string name="sun_info_eclipse_legend">A portion of the Earth is engulfed in a shadow cast by the Moon which fully or partially blocks sunlight (when the Sun, Moon and Earth are aligned)</string-->
+
+    <!-- Moon Info -->
+    <string name="moon_info_title">Mēness</string>
+    <string name="moon_info_moonrise">Aust</string>
+    <string name="moon_info_moonset">Riet</string>
+    <string name="moon_info_date">Datums</string>
+    <string name="moon_info_age">Vecums</string>
+    <string name="moon_info_illuminated">Izgaismots</string>
+    <string name="moon_info_zodiac">Zodiaks</string>
+    <string name="moon_info_distance">Attālums</string>
+    <string name="moon_info_azimuth">Azimuth</string>
+    <string name="moon_info_altitude">Augstums</string>
+    <string name="moon_info_phase">Fāze</string>
+    <string name="moon_info_eclipse">Aptumsums</string>
+    <string name="moon_info_eclipse_type_total">Pilnīgs</string>
+    <string name="moon_info_eclipse_type_partial">Daļējs</string>
+    <string name="moon_info_eclipse_type_annular">Gredzenveida</string>
+    <string name="moon_info_eclipse_type_penumbral">Pusēnas</string>
+    <string name="moon_info_age_unit_days">dienas</string>
+    <string name="moon_info_distance_unit_km">km</string>
+
+    <!-- Moon phases -->
+    <string name="menu_moon_phases">Mēness Fāzes</string>
+    <string name="moon_newmoon">Jauns Mēness</string>
+    <string name="moon_waxingcrescent">Augošs pusmēness</string>
+    <string name="moon_firstquarter">Pirmā ceturtdaļa</string>
+    <string name="moon_waxinggibbous">Augošs mēness</string>
+    <string name="moon_full">Pilnmēness</string>
+    <string name="moon_waninggibbous">Dilstošs mēness</string>
+    <string name="moon_lastquarter">Pēdējā ceturtdaļa</string>
+    <string name="moon_waningcrescent">Dilstošs pusmēness</string>
+
+    <!-- Zodiac signs -->
+    <string name="zodiac_aries">Auns</string>
+    <string name="zodiac_taurus">Vērsis</string>
+    <string name="zodiac_gemini">Dvīņi</string>
+    <string name="zodiac_cancer">Vēzis</string>
+    <string name="zodiac_leo">Lauva</string>
+    <string name="zodiac_virgo">Jaunava</string>
+    <string name="zodiac_libra">Svari</string>
+    <string name="zodiac_scorpio">Skorpions</string>
+    <string name="zodiac_sagittarius">Strēlnieks</string>
+    <string name="zodiac_capricorn">Mežāzis</string>
+    <string name="zodiac_aquarius">Ūdensvīrs</string>
+    <string name="zodiac_pisces">Zivs</string>
+
+    <!-- Units -->
+    <string name="wind_direction_n">Z</string>
+    <string name="wind_direction_ne">ZA</string>
+    <string name="wind_direction_e">A</string>
+    <string name="wind_direction_se">DA</string>
+    <string name="wind_direction_s">D</string>
+    <string name="wind_direction_sw">DR</string>
+    <string name="wind_direction_w">R</string>
+    <string name="wind_direction_nw">ZR</string>
+
+    <string name="wind_unit_ms">m/s</string>
+    <string name="wind_unit_kmh">km/h</string>
+    <string name="wind_unit_mph">mph</string>
+    <string name="wind_unit_knot">kn</string>
+    <string name="wind_unit_bft">bft</string>
+
+    <string name="pressure_unit_hpa">hPa</string>
+    <string name="pressure_unit_mb">mb</string>
+    <string name="pressure_unit_mmhg">mmHg</string>
+    <string name="pressure_unit_inhg">inHg</string>
+
+    <string name="temperature_unit_c" translatable="false">\u2103</string>
+    <string name="temperature_unit_f" translatable="false">\u2109</string>
+    <string name="temperature_unit_degree" translatable="false">°</string>
+
+    <string name="precipitation_unit_mm">mm</string>
+    <string name="precipitation_unit_cm">cm</string>
+    <string name="precipitation_unit_in">in</string>
+
+    <string name="visibility_unit_m">m</string>
+    <string name="visibility_unit_km">km</string>
+    <string name="visibility_unit_mi">mi</string>
+
+    <string name="weather_aqi_detail_units">Mērvienības: µg/m³</string>
+
+    <string name="time_units_hour">h</string>
+    <string name="time_units_minute">min</string>
+    <string name="time_units_second">sec</string>
+
+    <!-- Settings -->
+    <string name="settings_menu_title">Iestatījumi</string>
+
+    <!-- UI preferences -->
+    <string name="prefs_ui_title">Lietotāja interfeiss</string>
+    <string name="prefs_ui_theme">Motīvs</string>
+    <string name="prefs_ui_theme_follow_system">Sekot sistēmas</string>
+    <string name="prefs_ui_theme_dark">Tumšais Režīms</string>
+    <string name="prefs_ui_theme_light">Gaišais Režīms</string>
+    <string name="prefs_ui_theme_battery">Baterijas Lādiņš</string>
+    <string name="prefs_ui_theme_def_value" translatable="false">MODE_NIGHT_FOLLOW_SYSTEM</string>
+    <string name="prefs_ui_icons_skin" translatable="false">@string/prefs_icons_skin_title</string>
+
+    <!-- Settings - weather icons -->
+    <string name="prefs_icons_skin_title">Ikonu motīvs</string>
+    <string name="prefs_icons_skin_builtin">Iebūvētais</string>
+    <string name="prefs_icons_skin_available">Pieejamie</string>
+
+    <!-- Settings - Location -->
+    <string name="settings_geolocation_title">Lokācija</string>
+    <string name="settings_autolocate_title">Autonoteikšana</string>
+    <string name="settings_autolocate_summary">Automātiski atrast jūsu ierīci</string>
+
+    <!-- Data sources preferences -->
+    <string name="prefs_data_source_title">Datu avots</string>
+    <string name="prefs_data_source_citydb">Pilsētu datubāze</string>
+    <string name="prefs_data_source_weather">Laika prognoze</string>
+    <string name="prefs_data_source_aqi">Gaisa kvalitāte</string>
+    <string name="prefs_data_source_radar">Nokrišņu karte</string>
+    <string name="prefs_data_order">Laikapstākļu datu secība</string>
+    <string name="prefs_data_feelslike_as_main_title">Sajūtas kā galvenā temperatūra</string>
+    <string name="prefs_data_feelslike_as_main_summary">Rādīt reālo temperatūru kā galveno laikapstākļu temperatūru</string>
+
+    <string name="prefs_pressure_level_title">Parādīt spiedienu</string>
+    <string name="prefs_pressure_level_default">Noklusējuma</string>
+    <string name="prefs_pressure_level_sensor">Telefona spiediena sensora</string>
+
+    <!-- Data update preferences -->
+    <string name="prefs_data_update_title">Datu atjaunināšana</string>
+    <string name="prefs_data_update_autoupdate_title">Auto atjaunināšana</string>
+    <string name="prefs_data_update_autoupdate_summary">Automātiski atjaunināt laika prognozes</string>
+    <string name="prefs_data_update_wifi_only_summary">Atjaunināt laika prognozi tikai, kad ir Wi-Fi savienojums</string>
+    <string name="prefs_data_update_wifi_only_title">Atjaunināt tikai ar Wi-Fi</string>
+    <string name="prefs_data_update_interval_title">Atjaunināšanas intervāls</string>
+    <string name="prefs_data_update_quiet_hours_end_time_title">Beigas</string>
+    <string name="prefs_data_update_quiet_hours_start_time_title">Sākums</string>
+    <string name="prefs_data_update_quiet_hours_title">Klusās stundas</string>
+    <string name="prefs_data_update_dkma_title">Dati netiek atjaunināti?</string>
+    <string name="prefs_data_update_dkma_summary">Kā panākt, lai tas darbotos jūsu tālrunim</string>
+
+    <!-- Units preferences -->
+    <string name="prefs_units_title">Mērvienības</string>
+    <string name="prefs_units_temperature">Temperatūra</string>
+    <string name="prefs_units_temperature_c" translatable="false">°C</string>
+    <string name="prefs_units_temperature_f" translatable="false">°F</string>
+    <string name="prefs_units_pressure">Spiediens</string>
+    <string name="prefs_units_pressure_hpa" translatable="false">@string/pressure_unit_hpa</string>
+    <string name="prefs_units_pressure_mb" translatable="false">@string/pressure_unit_mb</string>
+    <string name="prefs_units_pressure_mmhg" translatable="false">@string/pressure_unit_mmhg</string>
+    <string name="prefs_units_pressure_inhg" translatable="false">@string/pressure_unit_inhg</string>
+    <string name="prefs_units_wind">Vējš</string>
+    <string name="prefs_units_wind_ms" translatable="false">@string/wind_unit_ms</string>
+    <string name="prefs_units_wind_kmh" translatable="false">@string/wind_unit_kmh</string>
+    <string name="prefs_units_wind_mph" translatable="false">@string/wind_unit_mph</string>
+    <string name="prefs_units_wind_knot" translatable="false">@string/wind_unit_knot</string>
+    <string name="prefs_units_wind_bft" translatable="false">@string/wind_unit_bft</string>
+    <string name="prefs_units_precip">Nokrišņi</string>
+    <string name="prefs_units_precip_mm" translatable="false">@string/precipitation_unit_mm</string>
+    <string name="prefs_units_precip_cm" translatable="false">@string/precipitation_unit_cm</string>
+    <string name="prefs_units_precip_in" translatable="false">@string/precipitation_unit_in</string>
+    <string name="prefs_units_visibility">Redzamība</string>
+    <string name="prefs_units_visibility_m" translatable="false">@string/visibility_unit_m</string>
+    <string name="prefs_units_visibility_km" translatable="false">@string/visibility_unit_km</string>
+    <string name="prefs_units_visibility_mi" translatable="false">@string/visibility_unit_mi</string>
+
+    <!-- Notifications -->
+    <string name="prefs_notifications_title">Paziņojumi</string>
+    <string name="prefs_notification_title">Rādīt Paziņojumus</string>
+    <string name="prefs_notification_summary">Rādīt pašreizējos laika apstākļus paziņojumos</string>
+    <string name="prefs_notification_icon_type_title">Paziņojumu ikona</string>
+    <string name="prefs_notification_icon_icon">Laikapstākļu ikona</string>
+    <string name="prefs_notification_icon_temp">Temperatūra</string>
+
+    <string name="prefs_widgets_location_title">Vietne logrīkiem</string>
+
+    <!-- Widgets -->
+    <string name="prefs_widgets_title">Logrīki</string>
+    <string name="prefs_widgets_not_found">Nav atrasts neviens instalēts logrīks</string>
+    <string name="prefs_widgets_miui">MIUI motīvu logrīki (.mtz)</string>
+
+    <!-- Settings - About -->
+    <string name="prefs_about">Par</string>
+    <string name="prefs_app_version">Pašreizējā versija</string>
+    <string name="prefs_app_url">Mājaslapa</string>
+    <string name="prefs_permissions_privacy">Privātuma politika</string>
+    <string name="prefs_translations">Tulkojumi</string>
+    <string name="prefs_translations_summary">Paldies aplikācijas tulkotājiem</string>
+    <string name="prefs_thirdparty">Trešo pušu bibliotēkas un resursi</string>
+    <string name="prefs_help">Palīdzība</string>
+    <string name="prefs_feedback">Atsauksmes</string>
+    <string name="prefs_donate">Ziedojums</string>
+
+    <!-- Dialogs -->
+    <string name="weather_alert_dialog_start_time">Sākums</string>
+    <string name="weather_alert_dialog_end_time">Beigas</string>
+    <string name="weather_alert_dialog_source">Avots: %s</string>
+
+    <string name="dialog_changelog_title">Izmaiņas</string>
+    <string name="dialog_information_title">Informācija</string>
+
+    <!-- Contact developer dialog -->
+    <string name="dialog_contact_dev_send_email">Nosūtīt e-pastu</string>
+    <string name="dialog_contact_dev_send_email_subject_message" translatable="false">Weather Mate [%1$s]</string>
+    <string name="dialog_contact_dev_send_email_message">Aprakstiet jūsu problēmu:\n\n</string>
+    <string name="dialog_contact_dev_send_email_report_bug">Ziņot par kļūdu</string>
+    <string name="dialog_contact_dev_send_email_request_new_feature">Pieprasīt jaunu funkciju</string>
+    <string name="dialog_contact_dev_send_email_other">Cits</string>
+    <string name="dialog_contact_dev_send_email_help_localize" translatable="false">Help us with localization</string>
+    <string name="dialog_contact_dev_send_email_help_localize_message" translatable="false">Hello, I can help you with localization to %1$s</string>
+
+    <!-- Widgets -->
+    <string name="widget_name_4x1_pixel" translatable="false">Google Pixel</string>
+    <string name="widget_name_4x1_f" translatable="false">Clock and forecast</string>
+    <string name="widget_name_4x2_clock" translatable="false">Clock and forecast</string>
+    <string name="widget_name_4x2_stock" translatable="false">Forecast</string>
+
+    <!-- Widget config -->
+    <string name="widget_config_title">Logrīku konfigurācija</string>
+    <string name="widget_config_background_title">Fons</string>
+    <string name="widget_config_use_background_title">Rādīt logrīka fonu</string>
+    <string name="widget_config_background_color_title">Fona krāsa</string>
+
+    <string name="widget_config_font_title">Fonti</string>
+    <string name="widget_config_font_color_title">Fontu krāsa</string>
+    <string name="widget_config_font_size_title">Fontu izmērs</string>
+    <string name="widget_config_clock_title">Pulkstenis</string>
+    <string name="widget_config_date_title">Datums</string>
+    <string name="widget_config_city_name_title">Pilsētas nosaukums</string>
+    <string name="widget_config_current_temp_title">Pašreizējā temperatūra</string>
+    <string name="widget_config_current_condition_title">Pašreizējais stāvoklis</string>
+    <string name="widget_config_forecast_temp_title">Prognozējamā temperatūra</string>
+    <string name="widget_config_forecast_time_title">Prognozējamais laiks</string>
+    <string name="widget_config_other_title">Citi dati</string>
+
+    <string name="widget_config_realtime_icon_size_title">Pašreizējais laikapstākļu ikonu izmērs</string>
+    <string name="widget_config_forecast_icon_size_title">Laika prognozes ikonu izmērs</string>
+
+    <string name="widget_config_data_display_title">Datu displejs</string>
+    <string name="widget_config_show_alarm_title">Rādīt nākamo modinātāju</string>
+    <string name="widget_config_show_date_title">Rādīt datumu</string>
+    <string name="widget_config_dateformat_title">Datuma formāts</string>
+    <string name="widget_config_forecast_type_title">Prognozes veids</string>
+
+    <string name="widget_config_click_settings">Klikšķa iestatījumi</string>
+    <string name="widget_config_click_apps">Izvēlēties aplikāciju</string>
+    <string name="widget_config_click_clock">Pulkstenis</string>
+    <string name="widget_config_click_date">Datums</string>
+    <string name="widget_config_click_weather_icon">Laikapstākļu ikona</string>
+    <string name="widget_config_click_temperature">Temperatūra</string>
+
+    <!-- Color picker -->
+    <string name="press_color_to_apply">Nospiediet uz Krāsas, lai lietotu</string>
+    <string name="dialog_color_picker">Krāsu Izvēle</string>
+    <string name="color_picker_use_default_color">Lietot noklusējuma krāsu</string>
+
+    <!-- Notification channel -->
+    <string name="notification_widget_update_service_text">Pieturiet uz paziņojuma, atveriet lietotnes informāciju un izslēdziet paziņojumus, lai paslēptu šo paziņojumu.</string>
+    <string name="notification_widget_update_service_channel">Logrīku atjaunināšanas pakalpojums</string>
+
+
+</resources>

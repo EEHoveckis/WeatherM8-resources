@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Conditions -->
+    <string name="weather_tornado">Tornado</string>
+    <string name="weather_tropicalstorm">Tropiskā Vētra</string>
+    <string name="weather_hurricane">Viesuļvētra</string>
+    <string name="weather_severetstorms">Stiprs pērkona negaiss</string>
+    <string name="weather_tstorms">Pērkona negaiss</string>
+    <string name="weather_rainandsnow">Lietus un sniegs</string>
+    <string name="weather_rainandsleet">Lietus un putenis</string>
+    <string name="weather_snowandsleet">Jaukts sniegs un putenis</string>
+    <string name="weather_freezingrain">Ledains Lietus</string>
+    <string name="weather_snowflurries">Sniega Uzplūdi</string>
+    <string name="weather_lightsnowshowers">Neliels sniegs</string>
+    <string name="weather_blowingsnow">Pūš Sniegs</string>
+    <string name="weather_snow">Sniegs</string>
+    <string name="weather_hail">Krusa</string>
+    <string name="weather_sleet">Putenis</string>
+    <string name="weather_dust">Putekļi</string>
+    <string name="weather_foggy">Miglains</string>
+    <string name="weather_haze">Migla</string>
+    <string name="weather_smoky">Dūmakains</string>
+    <string name="weather_windy">Vējains</string>
+    <string name="weather_cold">Auksts</string>
+    <string name="weather_cloudy">Mākoņains</string>
+    <string name="weather_mostlycloudy">Pārsvarā mākoņains</string>
+    <string name="weather_partlycloudy">Daļēji mākoņains</string>
+    <string name="weather_clear">Skaidrs</string>
+    <string name="weather_sunny">Saulains</string>
+    <string name="weather_fair">Labs Laiks</string>
+    <string name="weather_rainandhail">Lietus un Krusa</string>
+    <string name="weather_hot">Karsts</string>
+    <string name="weather_isotstorms">Izolēti Pērkona Negaisi</string>
+    <string name="weather_scatteredtstorms">Izkaisīti Pērkona Negaisi</string>
+    <string name="weather_scatteredshowers">Izkaisītas Lietusgāzes</string>
+    <string name="weather_heavysnow">Spēcīgs Sniegs</string>
+    <string name="weather_fog">Migla</string>
+    <string name="weather_lightrain">Viegls Lietus</string>
+    <string name="weather_rain">Lietus</string>
+    <string name="weather_rainshowers">Lietusgāzes</string>
+    <string name="weather_blizzard">Putenis</string>
+    <string name="weather_overcast">Apmācies</string>
+    <string name="weather_sleet_tstorms">Putenis un Negaiss</string>
+    <string name="weather_snow_tstorms">Sniegs un Negaiss</string>
+    <string name="weather_clearsky">Tīras Debesis</string>
+    <string name="weather_heavyrain">Spēcīgs Lietus</string>
+    <string name="weather_mostlyclear">Pārsvarā Skaidrs</string>
+    <string name="weather_lightfog">Viegla Migla</string>
+    <string name="weather_drizzle">Smidzina</string>
+    <!-- Not Available -->
+    <string name="weather_notavailable" translatable="false">N/A</string>
+</resources>
